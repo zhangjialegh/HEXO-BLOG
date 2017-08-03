@@ -10,7 +10,6 @@ categories: js基础
  - 特点：key 和 value相同，没有重复的value
  - ES6提供了数据结构Set。它类似于数组，但是成员的值都是唯一的，没有重复的值。
 
----
 
 ### 1. 创建一个Set
 
@@ -92,7 +91,7 @@ k.forEach(function (value,key,set){
  2. NaN 和 NaN 认为是相同的
  3. { } 和 { } 是不同的
 
----
+
 ## Map
 
  - 字典：是用来存储不重复的key的Hash结构。不同于集合（Set）的是，字典使用的是[键，值]的形式来存储数据的。
@@ -111,8 +110,9 @@ console.log(data1.toString()===data2.toString());
 //true;
 ```
  
+### 创建一个Map
 
- - 创建一个Map
+
 ```
 const map = new Map([
  ['a',1],
@@ -122,11 +122,11 @@ console.log(map);
 //{"a" => 1, "b" => 2}
 ```
 
- - Map类的属性
+### Map类的属性
 
     console.log(map.size)
 
- - Map类的方法
+### Map类的方法
 
     ***1.set(key,value)设置键名key对应的键值为value，然后返回整个Map结构。如果key已经有值，则键值会被更新，否则就新生成该键。***
     ```
@@ -162,7 +162,7 @@ console.log(map);
      ***8.entries()返回键值对的遍历器***
      ***9.forEach()使用回调函数遍历每个成员***
 
- - Map在使用中的注意事项：
+###  Map在使用中的注意事项：
  
 
     1.NaN 是相同的
@@ -180,7 +180,7 @@ console.log(map);
  ## 函数的默认参数
  
 
- - ES6允许给函数制定默认参数
+ ES6允许给函数制定默认参数
 
 ```
 function fn(a,b){
@@ -194,7 +194,7 @@ function fn(a,b){
   fn(0,1);  //2//出现问题
 ```
 
- - 添加默认参数
+ 添加默认参数
  
 ```
 function fn2(a = 1,b =2){
@@ -205,7 +205,7 @@ fn2(); //3
 fn2(0,1);  //1
 ```
 
- - 同样支持解构
+ 同样支持解构
  
 ```
 function fn3({a,b}={a:1,b:2}){
@@ -225,10 +225,11 @@ fn3({});  //NaN
  fn4({a:4});  //6
 ```
 
+
 ## 函数的rest参数
  
 
- - es6中新增了rest参数，用来取代argumets，在est中废除了arguments  caller callee
+ es6中新增了rest参数，用来取代argumets，在est中废除了arguments  caller callee
 
 ```
 // callee用法
@@ -266,7 +267,7 @@ function add(...res){
 add(1,2,3,4);  //10
 ```
 
- - rest 参数 必须是最后一个参数
+ rest 参数 必须是最后一个参数
  
 ```
 function fn(a=1,b=2,...res){
@@ -278,7 +279,10 @@ function fn(a=1,b=2,...res){
 fn(); // 1 2 []
 ```
 
+
 ## 胖子函数
+
+
 
 ***胖子函数又叫箭头函数，通常用在函数表达式内和回调函数当中***
 
