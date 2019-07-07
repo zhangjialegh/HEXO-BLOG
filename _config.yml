@@ -85,7 +85,7 @@ admin:
   username: jiale
   password_hash: $2a$10$bcvOxE5WUaa..hud5YezQuG5mnRx8sEArLVqxpzRUNolFGCEUDX96
   secret: zhangjialegh
-  deployCommand: './scripts/generate.sh'
+  deployCommand: './admin-scripts/generate.sh'
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
