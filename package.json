@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "hexo clean && hexo g && hexo s -p 5000",
-    "clean": "hexo clean && hexo g -d",
+    "start": "hexo s -d",
+    "clean": "hexo clean",
     "deploy": "hexo clean && hexo g -d && hexo deploy"
   },
   "hexo": {
