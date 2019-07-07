@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: ZJL|BLOG
-subtitle:
+title: ZJL | BLOG
+subtitle: Stay hungry stay foolish
 description:
 author: zjl
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://localhost:4000/
-root: /
+url: https://bestzjl.vicp.io/
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -69,6 +69,23 @@ search:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+
+# RSS订阅
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+
+# hexo-admin authentification
+admin:
+  username: jiale
+  password_hash: $2a$10$bcvOxE5WUaa..hud5YezQuG5mnRx8sEArLVqxpzRUNolFGCEUDX96
+  secret: zhangjialegh
+  deployCommand: './scripts/generate.sh'
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

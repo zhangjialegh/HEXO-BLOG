@@ -1,7 +1,7 @@
 ﻿---
 title: DOM(文档对象模型)
-data: 2017-3-06
-tags: [js,DOM]
+date: 2017-3-06
+tags: [js]
 categories: js基础
 ---
 

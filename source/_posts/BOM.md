@@ -1,7 +1,7 @@
 ﻿---
 title: BOM(浏览器对象模型)
-data: 2017-5-11
-tags: [js,BOM]
+date: 2017-5-11
+tags: [js]
 categories: js基础
 ---
 

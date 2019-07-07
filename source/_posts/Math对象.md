@@ -1,7 +1,7 @@
 ﻿---
 title: js中Math对象
-data: 2017-2-20
-tags: [js,Math]
+date: 2017-2-20
+tags: [js]
 categories: js基础
 ---
 

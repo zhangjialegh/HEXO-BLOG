@@ -1,6 +1,6 @@
 ﻿---
 title: js中的数据类型
-data: 2017-2-06
+date: 2017-2-06
 tags: [js]
 categories: js基础
 ---

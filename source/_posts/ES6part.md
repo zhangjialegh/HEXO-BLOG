@@ -1,6 +1,6 @@
 ---
 title: ECMAScript 6
-data: 2017-6-11
+date: 2017-6-11
 tags: [js]
 categories: js基础
 ---
